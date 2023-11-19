@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">About Me</a>
+        <a href="#">Projects</a>
+        <a href="Education.html">Education</a>
+        <a href="ContactMe.html">Contact Me</a>
+        <a href="Assets/T&C.txt">Terms and Conditions</a>
+    </div>
+    
+    <div id="main">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    </div>
+
+    <div class="projects">
+        <h1>Projects</h1>
+    </div>
+
+    <div class="main">
+        
+        <h2>PORTFOLIO</h2>
+        
+        <div id="myBtnContainer">
+          <button class="btn" onclick="filterSelection('websites')"> Websites</button>
+          <button class="btn" onclick="filterSelection('python')"> Python</button>
+        </div>
+        
+        <div class="row">
+          <div class="column websites">
+            <div class="content">
+              <img src="Assets/Images/Groupweb.png" alt="Mountains" style="width:100%">
+              <h4>Webpage for university</h4>
+              <p>One of my group pages and this is the one of said pages coded by me.</p>
+            </div>
+          </div>
+          <div class="column websites">
+            <div class="content">
+            <img src="Assets/Images/Photographypage.png" alt="Lights" style="width:100%">
+              <h4>Photography Page</h4>
+              <p>Simple page that displays photographs. lore</p>
+            </div>
+          </div>
+          <div class="column websites">
+            <div class="content">
+            <img src="Assets/Images/BdayWeb.png" alt="Nature" style="width:100%">
+              <h4>Aunty birthday card</h4>
+              <p>A simple interactive birthday card</p>
+            </div>
+          </div>
+          
+          <div class="column python">
+            <div class="content">
+              <img src="Assets/Images/XoGame.png" alt="Car" style="width:100%">
+              <h4>XO Game</h4>
+              <p>Basic game to text the random function and the computers choice making skills</p>
+            </div>
+          </div>
+          <div class="column python">
+            <div class="content">
+            <img src="Assets/Images/Snake.png" alt="Car" style="width:100%">
+              <h4>Snake Game</h4>
+              <p>The retro snake game that tests users input and ability to track points</p>
+            </div>
+          </div>
+          <div class="column python">
+            <div class="content">
+            <img src="Assets/Images/Car.png" alt="Car" style="width:100%">
+              <h4>Car game</h4>
+              <p>This is a simple car game that tests the users ability to drive in a two dimensional plane.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="link">
+          <h1>A link to my projects can be found below:</h1>
+          <a href="https://github.com/BobLee-wq/Boblee" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 Aashiq Hartley. All rights reserved.</p>
+  </footer>
+  
+
+</body>
+</html>

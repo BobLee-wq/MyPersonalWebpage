@@ -1,0 +1,151 @@
+
+
+
+body,html {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+    background-color: #1f2a37;
+    overflow-x: hidden;
+    border-width: 100%;
+    text-rendering: optimizeSpeed;
+    container: auto;
+    padding: 20px;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #7e98b5;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1f2a37;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #C38D99;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    background-color: #C38D99;
+    border: #1f2a37;
+    background-image: url(Assets/Images/Banner.jpg);
+    background-size: cover;
+    color: #7e98b5;
+  }
+  
+  @media screen and (max-height: 450px) and (max-width: 1280px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+h1 {
+    font-size: 59px;
+    color: #ded7b2;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p {
+    color: #ded7b2;
+    text-align: center;
+}
+
+p,
+input,
+textarea,
+label {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px 0;
+}
+
+input,
+textarea,
+label {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    color: #7e98b5;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #C38D99;
+}
+
+input[type=submit] {
+    background-color: #C38D99;
+    padding: 15px 0;
+    color: #1f2a37;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+input[type=submit]:hover {
+    background: #1f2a37;
+    color: #7e98b5;
+}
+
+input,
+textarea {
+    color: #C38D99;
+    font-size: 18px;
+    padding: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 1px solid #828282;
+}
+
+a {
+    color: #828282;
+    font-style: italic;
+}
+
+a:hover {
+    color: #fff;
+}
